@@ -1,6 +1,5 @@
 # Databricks notebook source
 #Vamos a crear nuestra base de datos
-
 db = "S09_DB6_Antony"
 
 spark.sql(f"CREATE DATABASE IF NOT EXISTS {db}")
